@@ -3,7 +3,7 @@ def my_fun(var_1, var_2):
         div = var_1 / var_2
         print(f' Деление {var_1} на {var_2} равно: {round(div, 4)}')
     except ZeroDivisionError:
-        print('Деление на ноль')
+        print('Деление на ноль!')
 
 
 try:
